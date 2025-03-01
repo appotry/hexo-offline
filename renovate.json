@@ -1,9 +1,8 @@
 {
-  "devDependencies": {
-    "automerge": true
-  },
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "rangeStrategy": "replace",
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"]
 }
